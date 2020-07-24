@@ -24,7 +24,7 @@ export default function Nav() {
                     <Hamburger buttonClass={buttonClass} changeClassName={changeClassName}/>
                 </div>
             </nav>
-            {(buttonClass === 'circle icon close') ? <Modal/> : null }
+            {(buttonClass === 'circle icon close') ? <Modal buttonClass={buttonClass} changeClassName={changeClassName}/> : null }
         </>
     )
 }

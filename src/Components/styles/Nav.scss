@@ -5,19 +5,14 @@ nav {
     min-width: 100%;
     min-height: 15vh;
     background: #3E4E90;
-
 }
-
 img.logo {
     max-width: 50%;
     padding-left: 2em;
     position: relative;
     top: 0em;
     cursor: pointer;
-
 }
-
-
 #wrapper {
     height: 50px;
     width: 50px;
@@ -27,7 +22,6 @@ img.logo {
     position: relative;
     cursor: pointer;
 }
-
 .circle {
     width: 35px;
     height: 40px;
@@ -35,7 +29,6 @@ img.logo {
     top: 5%;
     margin: 0 auto;
 }
-
 .line {
     position: absolute;
     height: 5px;
@@ -44,11 +37,9 @@ img.logo {
     border-radius: 8px;
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .35s;
 }
-
 .top {
     top: 33%;
 }
-
 .bottom {
     top: 66%;
 }
@@ -63,9 +54,10 @@ img.logo {
 }
 
 .modal {
-    height: 85vh;
+    height: 86vh;
     width: 100%;
     position: fixed;
+    left: 0;
     top: 15vh;
     display: flex;
     flex-direction: column;
@@ -76,4 +68,15 @@ img.logo {
     background-color:black;
     z-index: 9000;
     border-top: .1px solid darkgray;
+}
+.modal a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    font-weight: 600;
+    // border-bottom: .1px solid darkgray;
+    padding: .5em 0;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
 }

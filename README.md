@@ -11,7 +11,7 @@
 ### Dependencies
 
 - [x] React
-- [ ] React Router Dom
+- [x] React Router Dom
 - [x] Node-sass
 - [ ] Bulma
 - [x] Redux

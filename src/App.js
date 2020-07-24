@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Home from './screens/Home/Home';
 import Nav from './Components/Nav';
+import Routes from './routes'
 
 function App(props) {
   return (
@@ -10,7 +10,7 @@ function App(props) {
         <Nav/>
       </header>
       <main>
-        <Home/>
+        <Routes/>
       </main>
       <footer>
         {/* FOOTER */}
