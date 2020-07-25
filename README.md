@@ -1,12 +1,12 @@
 # Fantasy Website
 
-### Pages
+### Screens
 
-- Home
-- History
-- Contact
-- Trading Block
-- Top Players
+- [x] Home
+- [ ] History
+- [ ] Contact
+- [ ] Trading Block
+- [ ] Top Players
 
 ### Dependencies
 
@@ -14,9 +14,17 @@
 - [x] React Router Dom
 - [x] Node-sass
 - [ ] Bulma
-- [x] Redux
 
 ### State
 
 - buttonClassName ('circle icon' -> 'circle icon close')
-- modal (false -> true)
+
+
+### Components 
+
+- [x] Hamburger
+- [x] Logo
+- [x] Modal
+- [x] Nav
+- [ ] Footer
+- [x] Overlay

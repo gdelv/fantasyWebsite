@@ -1,0 +1,28 @@
+.home-container {
+    min-height: 85vh;
+    max-height: 85vh;
+    background-image: url(../../images/mobile.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    // background-position-x: -19em; 
+}
+
+.title {   
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    font-size: 3em;
+    top: 32vh;
+    z-index: 1000;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+@media only screen and (min-width: 700px) {
+    .home-container {
+        background-position: center; 
+        background-image: url(../../images/deskop.jpeg);
+    }
+}
