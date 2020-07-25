@@ -13,7 +13,7 @@
 - [x] React
 - [x] React Router Dom
 - [x] Node-sass
-- [ ] Bulma
+- [x] Bulma
 
 ### State
 
