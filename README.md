@@ -28,3 +28,7 @@
 - [x] Nav
 - [ ] Footer
 - [x] Overlay
+- [ ] Slider
+- [ ] History Card
+- [ ] Contact Card
+- [ ] Trade Card
