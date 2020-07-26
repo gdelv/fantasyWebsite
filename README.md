@@ -1,4 +1,5 @@
-# Fantasy Website
+# Fantasy Website [![Netlify Status](https://api.netlify.com/api/v1/badges/8addb0e0-db26-4cfe-9a33-177d227b7c3a/deploy-status)](https://app.netlify.com/sites/fantasy-website/deploys)
+
 - React website for fantasy football league
 
 ### Screens
