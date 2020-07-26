@@ -1,9 +1,20 @@
 import prof1 from '../images/headshot.jpeg'
+import bracket1314 from '../images/13-14/13-14bracket.jpg'
+import standings1314 from '../images/13-14/13-14standings.jpg'
+import winningTeamImg1314 from '../images/13-14/13-14winningteam.jpg'
+
+import bracket1415 from '../images/14-15/14-15bracket.jpg'
+import standings1415 from '../images/14-15/14-15standings.jpg'
+import winningTeamImg1415 from '../images/14-15/14-15winningteam.jpg'
+
+import bracket1516 from '../images/15-16/15-16bracket.jpg'
+import standings1516 from '../images/15-16/15-16standings.jpg'
+import winningTeamImg1516 from '../images/15-16/15-16winningteam.jpg'
 
 export const historyArr = [
     {
         year: '2019-20',
-        sliderPicsArr: [],
+        sliderPicsArr: [bracket1314, standings1314, winningTeamImg1314],
         profilePic: prof1,
         ownerName: 'Josh', 
         teamName: "Josh's Beast Team",
@@ -39,7 +50,7 @@ export const historyArr = [
     },
     {
         year: '2015-16',
-        sliderPicsArr: [],
+        sliderPicsArr: [bracket1516, standings1516, winningTeamImg1516],
         profilePic: prof1,
         ownerName: 'Josh', 
         teamName: "Josh's Beast Team",
@@ -48,7 +59,7 @@ export const historyArr = [
     },
     {
         year: '2014-15',
-        sliderPicsArr: [],
+        sliderPicsArr: [bracket1415, standings1415, winningTeamImg1415],
         profilePic: prof1,
         ownerName: 'Josh', 
         teamName: "Josh's Beast Team",
@@ -57,7 +68,7 @@ export const historyArr = [
     },
     {
         year: '2013-14',
-        sliderPicsArr: [],
+        sliderPicsArr: [bracket1314, standings1314, winningTeamImg1314],
         profilePic: prof1,
         ownerName: 'Josh', 
         teamName: "Josh's Beast Team",

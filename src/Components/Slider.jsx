@@ -1,17 +1,9 @@
 import React , { useState } from 'react'
 import './styles/Slider.scss'
 import ImgComp from './ImgComp'
-import bracketImg from '../images/13-14/13-14bracket.jpg'
-import standingsImg from '../images/13-14/13-14standings.jpg'
-import winningTeamImg from '../images/13-14/13-14winningteam.jpg'
 
-
-export default function Slider() {
-    let sliderArr = [
-    <ImgComp src={bracketImg} />,
-    <ImgComp src={standingsImg} />,
-    <ImgComp src={winningTeamImg} />
-    ] 
+export default function Slider(props) {
+    let sliderArr = props.pictureArr.map((pic) => <ImgComp src={pic} />)
     const [x, setX] = useState(0)
     const goLeft = () => {
         x === 0 ? setX(-100 * (sliderArr.length - 1)) : setX(x + 100);

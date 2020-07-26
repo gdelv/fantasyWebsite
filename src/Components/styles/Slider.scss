@@ -1,15 +1,15 @@
 .slider {
-    border: 1px solid red;
+    // border: 1px solid red;
     position: relative;
     width: 100%;
-    height: 100%; // was set to 100vh in video
+    height: 30vh; // was set to 100vh in video
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     overflow: hidden;
-    background: black;
+    background: white;
     i{
         font-size: 2vw;
     }
@@ -17,7 +17,7 @@
 
 .slide {
     position: relative;
-    border: 1px solid blue;
+    // border: 1px solid blue;
     min-width: 100%;
     height: 80%; // was set to 80vh in video
     transition: .5s; //transition timing
