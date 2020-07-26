@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles/Hamburger.scss'
 
 export default function Hamburger(props) {
     

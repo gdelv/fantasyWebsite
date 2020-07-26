@@ -1,4 +1,5 @@
 # Fantasy Website
+- React website for fantasy football league
 
 ### Screens
 
@@ -25,10 +26,26 @@
 - [x] Hamburger
 - [x] Logo
 - [x] Modal
+- [x] Title
 - [x] Nav
-- [ ] Footer
+- [x] Footer
 - [x] Overlay
 - [ ] Slider
-- [ ] History Card
+- [x] History Card
 - [ ] Contact Card
 - [ ] Trade Card
+
+
+### Data Sctructure
+
+- History Data
+    - Year ( string )
+    - sliderPicsArr ( [] )
+    - profilePic ( img )
+    - ownerName ( string )
+    - teamName ( string )
+    - teamMVP( string )
+    - mvpPoints ( number )
+
+### Glitches To Fix
+- Nav overlay is scrollable

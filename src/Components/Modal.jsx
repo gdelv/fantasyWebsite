@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
+import './styles/Modal.scss'
 
 export default function Modal(props) {
     console.log(props);

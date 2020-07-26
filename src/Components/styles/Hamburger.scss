@@ -1,0 +1,39 @@
+#wrapper {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 20%;
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.circle {
+    width: 35px;
+    height: 40px;
+    position: relative;
+    top: 5%;
+    margin: 0 auto;
+}
+.line {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .35s;
+}
+.top {
+    top: 33%;
+}
+.bottom {
+    top: 66%;
+}
+.icon.close .top {
+    transform: rotate(405deg);
+    top: 50%;
+}
+
+.icon.close .bottom {
+    transform: rotate(675deg);
+    top: 50%;
+}

@@ -12,9 +12,6 @@ function App(props) {
       <main>
         <Routes/>
       </main>
-      <footer>
-        {/* FOOTER */}
-      </footer>
     </div>
   );
 }
