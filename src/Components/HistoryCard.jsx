@@ -23,7 +23,7 @@ export default function HistoryCard(props) {
                     </div>
                 </div>
                 <div class="content">
-                    <Title title={props.teamMVP} className='is-size-5 has-text-centered'/>
+                    <Title title={`Team MVP: ${props.teamMVP}`} className='is-size-5 has-text-centered'/>
                     <Title title={`${props.mvpPoints} Points`} className='is-size-6 has-text-centered'/>
                 </div>
             </div>
