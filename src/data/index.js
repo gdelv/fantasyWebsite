@@ -18,7 +18,7 @@ import whalen from '../images/profilePics/whalen.jpg'
 import bracket1617 from '../images/16-17/16-17bracket.jpg'
 import standings1617 from '../images/16-17/16-17standings.jpg'
 import winningTeamImg1617 from '../images/16-17/16-17winningteam.jpg'
-import iacono from '../images/profilePics/iacono.jpg'
+import iacono from '../images/profilePics/iacono.JPG'
 
 
 import bracket1718 from '../images/17-18/17-18bracket.jpg'

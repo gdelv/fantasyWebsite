@@ -18,8 +18,8 @@ export default function HistoryCard(props) {
                         </figure>
                     </div>
                     <div class="media-content">
-                        <Title title={props.ownerName} className='is-size-3 has-text-centered'/> 
-                        <Title title={props.teamName} className='is-size-4  has-text-centered'/> 
+                        <Title title={props.ownerName} className='is-size-4 has-text-centered'/> 
+                        <Title title={props.teamName} className='is-size-5  has-text-centered'/> 
                     </div>
                 </div>
                 <div class="content">
