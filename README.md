@@ -4,7 +4,7 @@
 ### Screens
 
 - [x] Home
-- [ ] History
+- [x] History
 - [ ] Contact
 - [ ] Trading Block
 - [ ] Top Players
@@ -30,7 +30,8 @@
 - [x] Nav
 - [x] Footer
 - [x] Overlay
-- [ ] Slider
+- [x] Slider
+- [x] ImgComp
 - [x] History Card
 - [ ] Contact Card
 - [ ] Trade Card
@@ -39,7 +40,7 @@
 ### Data Sctructure
 
 - History Data
-    - Year ( string )
+    - year ( string )
     - sliderPicsArr ( [] )
     - profilePic ( img )
     - ownerName ( string )
@@ -48,4 +49,4 @@
     - mvpPoints ( number )
 
 ### Glitches To Fix
-- Nav overlay is scrollable
+- Nav overlay is scrollable 

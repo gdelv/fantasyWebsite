@@ -1,17 +1,19 @@
 import React from 'react'
 import './styles/HistoryCard.scss'
 import Title from './Title'
-import s1 from '../images/13-14/13-14bracket.jpg'
+// import s1 from '../images/13-14/13-14bracket.jpg'
 import profilePic from '../images/headshot.jpeg'
+import Slider from './Slider'
 
 export default function HistoryCard() {
     return (
         <div class="card history-card">
             <Title title='2019-20' className='secondary has-text-centered is-size-3 history-card-title'/>
             <div class="card-image">
-                <figure class="image is-4by3">
-                    <img src={s1} alt="carousel"/>
-                </figure>
+                {/* <figure class="image is-4by3"> */}
+                    {/* <img src={s1} alt="carousel"/> */}
+                    <Slider/>
+                {/* </figure> */}
             </div>
             <div class="card-content">
                 <div class="media">
