@@ -50,4 +50,5 @@
     - mvpPoints ( number )
 
 ### Glitches To Fix
-- Nav overlay is scrollable 
+- Nav modal is scrollable 
+- Home overlay move up
