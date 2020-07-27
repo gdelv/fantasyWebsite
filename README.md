@@ -7,6 +7,7 @@
 - [x] Home
 - [x] History
 - [ ] Contact
+- [ ] Announcements 
 - [ ] Trading Block
 - [ ] Top Players
 
@@ -42,13 +43,19 @@
 
 - History Data
     - year ( string )
-    - sliderPicsArr ( [] )
+    - sliderPicsArr ( [ arr ] )
     - profilePic ( img )
     - ownerName ( string )
     - teamName ( string )
     - teamMVP( string )
     - mvpPoints ( number )
 
+- Contacts Data
+    - teamOwner: ( string )
+    - teamName: ( string )
+    - ownerNum: ( string )
+    - ownerEmail: ( string )
+    
 ### Glitches To Fix
 - Nav modal is scrollable 
 - Home overlay move up

@@ -13,7 +13,7 @@ export default function Modal(props) {
                 History                   
             </NavLink>
             <NavLink exact to='/contact' onClick={() => props.changeClassName(props.buttonClass)}>
-                Contact
+                Contacts
             </NavLink>
             <NavLink exact to='/trading-block' onClick={() => props.changeClassName(props.buttonClass)}>
                 Trading Block

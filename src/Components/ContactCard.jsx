@@ -2,19 +2,19 @@ import React from 'react'
 import './styles/ContactCard.scss'
 import Title from './Title'
 
-export default function ContactCard() {
+export default function ContactCard(props) {
     return (
-        <div class="card">
-            <div class="card-content">
-                <div class="content">
-                    <Title title='Owner Name' className='has-text-centered'/>
-                    <Title title='Team Name' className='has-text-centered'/>
+        <div className="card">
+            <div className="card-content">
+                <div className="content">
+                    <Title title={props.ownerName} className='has-text-centered is-size-4 primary'/>
+                    <Title title={props.teamName} className='has-text-centered is-size-5 secondary'/>
                 </div>
             </div>
             <footer class="card-footer">
-                <a href="tel:+15168643657" class="card-footer-item">Call</a>
-                <a href="sms://+15168643657" class="card-footer-item">Text</a>
-                <a href="mailto:giudelvecchio@gmail.com" class="card-footer-item">Email</a>
+                <a href={`tel:+1${props.ownerNum}`} className="card-footer-item">Call</a>
+                <a href={`sms://+1${props.ownerNum}`} className="card-footer-item">Text</a>
+                <a href={`mailto:${props.ownerEmail}`} className="card-footer-item">Email</a>
             </footer>
         </div>
     )

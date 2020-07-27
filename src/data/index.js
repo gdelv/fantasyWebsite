@@ -106,12 +106,73 @@ export const historyArr = [
 export const contactArr = [ 
     {
         teamOwner: 'Giusseppe',
+        teamName: 'Delanie Skywalkers',
         ownerNum: '5168643657',
         ownerEmail: 'giudelvecchio@gmail.com'
     },
     {   
         teamOwner: 'Ian',
-        ownerNum: '5168643657',
-        ownerEmail: 'giudelvecchio@gmail.com'
+        teamName: 'The Home DEEBO',
+        ownerNum: '5163612069',
+        ownerEmail: ''
+    },
+    {   
+        teamOwner: 'Tommy',
+        teamName: 'Slice and Guice',
+        ownerNum: '5164558978',
+        ownerEmail: ''
+    },
+    {   
+        teamOwner: 'Joe',
+        teamName: 'Hyde your Gurleys',
+        ownerNum: '5166396133',
+        ownerEmail: ''
+    },
+    {   
+        teamOwner: 'Kassoff',
+        teamName: "Moe's Before Hoe's",
+        ownerNum: '5162363403',
+        ownerEmail: ''
+    },
+    {   
+        teamOwner: 'Steven',
+        teamName: "Double De's",
+        ownerNum: '5162054660',
+        ownerEmail: ''
+    },{   
+        teamOwner: 'Whalen',
+        teamName: 'DOH!!',
+        ownerNum: '',
+        ownerEmail: ''
+    },
+    {   
+        teamOwner: 'Iacono',
+        teamName: 'Pop It Lockett Drop',
+        ownerNum: '5165473601',
+        ownerEmail: ''
+    },
+    {   
+        teamOwner: 'Lee',
+        teamName: 'Wubalubachubbchubb',
+        ownerNum: '',
+        ownerEmail: ''
+    },
+    {   
+        teamOwner: 'Press',
+        teamName: 'Hilton Gordon Inn',
+        ownerNum: '',
+        ownerEmail: ''
+    },
+    {   
+        teamOwner: 'Nick',
+        teamName: 'The White Walkers',
+        ownerNum: '5066035725',
+        ownerEmail: ''
+    },
+    {   
+        teamOwner: 'Josh',
+        teamName: "Josh's Beast Team",
+        ownerNum: '5165894771',
+        ownerEmail: ''
     }
 ]

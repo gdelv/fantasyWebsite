@@ -18,13 +18,13 @@ export default function HistoryCard(props) {
                         </figure>
                     </div>
                     <div class="media-content">
-                        <Title title={props.ownerName} className='is-size-4 has-text-centered'/> 
-                        <Title title={props.teamName} className='is-size-5  has-text-centered'/> 
+                        <Title title={props.ownerName} className='is-size-4 has-text-centered primary'/> 
+                        <Title title={props.teamName} className='is-size-6  has-text-centered secondary'/> 
                     </div>
                 </div>
                 <div class="content">
-                    <Title title={`Team MVP: ${props.teamMVP}`} className='is-size-5 has-text-centered'/>
-                    <Title title={`${props.mvpPoints} Points`} className='is-size-6 has-text-centered'/>
+                    <Title title={`Team MVP: ${props.teamMVP}`} className='is-size-5 has-text-centered secondary'/>
+                    <Title title={`${props.mvpPoints} Points`} className='is-size-6 has-text-centered secondary'/>
                 </div>
             </div>
         </div>

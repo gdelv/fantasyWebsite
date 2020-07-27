@@ -1,9 +1,15 @@
 .contact-title {
-    padding: 1em 0;
+    padding-top: 1em;
 }
 
 .contact-container {
-    padding: 1em;
+    max-width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 1em;
+}
+
+.contact-container .card {
+    margin: .5em;
 }
