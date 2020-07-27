@@ -37,6 +37,7 @@
 - [x] History Card
 - [x] Contact Card
 - [ ] Trade Card
+- [ ] Announcement Card
 
 
 ### Data Sctructure
@@ -55,7 +56,12 @@
     - teamName: ( string )
     - ownerNum: ( string )
     - ownerEmail: ( string )
-    
+
 ### Glitches To Fix
 - Nav modal is scrollable 
 - Home overlay move up
+
+
+### To Add
+- Clicking on ImgComp renders selected image larger scale in a modal
+- Making logo on nav link back to home page

@@ -13,7 +13,7 @@ export default function History() {
                 className='has-text-centered is-size-1 history-title primary'
             />
             <div className="card-container">
-                {historyArr.map((winner) =>{
+                {historyArr.reverse().map((winner) =>{
                     return (
                         <HistoryCard 
                             year={winner.year}
