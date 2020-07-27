@@ -10,7 +10,6 @@ import TopPlayers from '../screens/Top Players/TopPlayers';
 export default function Routes() {
     return (
         <Switch>
-            {/* Home Route */}
             <Route
                 exact 
                 path='/' 

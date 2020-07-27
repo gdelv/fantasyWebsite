@@ -4,12 +4,13 @@
 
 ### Screens
 
-- [x] Home
-- [x] History
-- [ ] Contact
-- [ ] Announcements 
-- [ ] Trading Block
-- [ ] Top Players
+- [x] Home ('/')
+- [x] History ('/history')
+- [x] Contact ('/contact')
+- [ ] Trading Block (GET) ('/trading-block')
+    - [ ] Post Player Page (POST) ('/trading-block/create')
+- [ ] News ('/news')
+- [ ] Top Players ('/top-players')
 
 ### Dependencies
 
@@ -17,10 +18,13 @@
 - [x] React Router Dom
 - [x] Node-sass
 - [x] Bulma
+- [x] Axios
 
 ### State
 
 - buttonClassName ('circle icon' -> 'circle icon close')
+- sliderState 
+- tradingBlock ( [ arr ])
 
 
 ### Components 
@@ -36,7 +40,9 @@
 - [x] ImgComp
 - [x] History Card
 - [x] Contact Card
-- [ ] Trade Card
+- [x] Trade Card
+- [ ] Input Comp
+- [ ] Form Component
 - [ ] Announcement Card
 
 
@@ -52,11 +58,15 @@
     - mvpPoints ( number )
 
 - Contacts Data
-    - teamOwner: ( string )
-    - teamName: ( string )
-    - ownerNum: ( string )
-    - ownerEmail: ( string )
+    - teamOwner ( string )
+    - teamName ( string )
+    - ownerNum ( string )
+    - ownerEmail ( string )
 
+- Trading Block Data
+    - playerName ( string )
+    - playerImg ( img )
+    - lookingFor ( string )
 ### Glitches To Fix
 - Nav modal is scrollable 
 - Home overlay move up
@@ -65,3 +75,4 @@
 ### To Add
 - Clicking on ImgComp renders selected image larger scale in a modal
 - Making logo on nav link back to home page
+- Fix contactCard height and making contact-container dynamic

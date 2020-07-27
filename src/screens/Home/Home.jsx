@@ -8,7 +8,7 @@ export default function Home() {
         <div className='home-container'>
             <Title 
                 title='THE LEAGUE' 
-                className='home-title primary'
+                className='home-title has-text-centered primary'
             />
             <Overlay/>
         </div>
