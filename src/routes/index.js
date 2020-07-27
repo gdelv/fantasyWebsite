@@ -5,6 +5,7 @@ import Contact from '../screens/Contact/Contact';
 import History from '../screens/History/History';
 import TradingBlock from '../screens/Trading Block/TradingBlock';
 import TopPlayers from '../screens/Top Players/TopPlayers';
+import PostPlayer from '../screens/PostPlayer/PostPlayer';
 
 
 export default function Routes() {
@@ -29,6 +30,11 @@ export default function Routes() {
                 exact 
                 path='/trading-block' 
                 component={TradingBlock}
+            />
+            <Route
+            exact 
+            path='/trading-block/post' 
+            component={PostPlayer}
             />
             <Route
                 exact 

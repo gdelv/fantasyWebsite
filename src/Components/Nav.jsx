@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { NavLink } from "react-router-dom";
 import './styles/Nav.scss'
 import Hamburger from './Hamburger'
 import Logo from './Logo'
@@ -18,7 +19,14 @@ export default function Nav() {
         <>
             <nav>
                 <div className='logo'>
-                    <Logo/>
+                    <NavLink exact to='/'>
+                        <Logo/>
+                    </NavLink>
+                </div>
+                <div className="button-container">
+                    <button className="button is-link is-inverted is-rounded primary">
+                        <NavLink exact to='/trading-block/post' onClick={() => changeClassName(buttonClass)}>Post Player</NavLink>
+                    </button>
                 </div>
                 <div className="hamburger">
                     <Hamburger buttonClass={buttonClass} changeClassName={changeClassName}/>

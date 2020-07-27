@@ -7,7 +7,7 @@
 - [x] Home ('/')
 - [x] History ('/history')
 - [x] Contact ('/contact')
-- [ ] Trading Block (GET) ('/trading-block')
+- [x] Trading Block (GET) ('/trading-block')
     - [ ] Post Player Page (POST) ('/trading-block/create')
 - [ ] News ('/news')
 - [ ] Top Players ('/top-players')
@@ -73,6 +73,6 @@
 
 
 ### To Add
-- Clicking on ImgComp renders selected image larger scale in a modal
-- Making logo on nav link back to home page
-- Fix contactCard height and making contact-container dynamic
+- [ ] Clicking on ImgComp renders selected image larger scale in a modal
+- [x] Making logo on nav link back to home page
+- [ ] Fix contactCard height and making contact-container dynamic
