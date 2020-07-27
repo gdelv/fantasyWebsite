@@ -102,3 +102,16 @@ export const historyArr = [
         mvpPoints: 300.3
     }
 ]
+
+export const contactArr = [ 
+    {
+        teamOwner: 'Giusseppe',
+        ownerNum: '5168643657',
+        ownerEmail: 'giudelvecchio@gmail.com'
+    },
+    {   
+        teamOwner: 'Ian',
+        ownerNum: '5168643657',
+        ownerEmail: 'giudelvecchio@gmail.com'
+    }
+]

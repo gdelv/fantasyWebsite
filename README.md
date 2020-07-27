@@ -34,7 +34,7 @@
 - [x] Slider
 - [x] ImgComp
 - [x] History Card
-- [ ] Contact Card
+- [x] Contact Card
 - [ ] Trade Card
 
 
