@@ -27,10 +27,15 @@ export default function TradingBlock() {
             return (
                 <>
                 <Title title='Trading Block' className='has-text-centered primary is-size-2'/>
+                <div className="button-container" style={{width:'100%'}}>
+                        <button className="button is-rounded primary">
+                            <NavLink exact to='/trading-block/post'>Post Player</NavLink>
+                        </button>
+                    </div>
                 {tradingBlock.map((player) => 
                     <TradeCard 
                         name={player.name} 
-                        img={player.img} 
+                        image_url={player.image_url} 
                         lookingFor={player.lookingFor}
                     />
                 )}
