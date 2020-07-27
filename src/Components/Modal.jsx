@@ -18,6 +18,9 @@ export default function Modal(props) {
             <NavLink exact to='/trading-block' onClick={() => props.changeClassName(props.buttonClass)}>
                 Trading Block
             </NavLink>
+            <NavLink exact to='/trading-block/post' onClick={() => props.changeClassName(props.buttonClass)}>
+                Post Player
+            </NavLink>
             <NavLink exact to='/top-players' onClick={() => props.changeClassName(props.buttonClass)}>
                 Top Players
             </NavLink>

@@ -25,6 +25,7 @@
 - buttonClassName ('circle icon' -> 'circle icon close')
 - sliderState 
 - tradingBlock ( [ arr ])
+- formState
 
 
 ### Components 
@@ -69,8 +70,8 @@
     - lookingFor ( string )
 
 ### Glitches To Fix
-- Nav modal is scrollable 
-- Home overlay move up
+- [ ] Nav modal is scrollable 
+- [ ] Home overlay move up
 
 
 ### To Add
