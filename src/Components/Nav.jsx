@@ -23,11 +23,6 @@ export default function Nav() {
                         <Logo/>
                     </NavLink>
                 </div>
-                <div className="button-container">
-                    <button className="button is-link is-inverted is-rounded primary">
-                        <NavLink exact to='/trading-block/post' onClick={() => changeClassName(buttonClass)}>Post Player</NavLink>
-                    </button>
-                </div>
                 <div className="hamburger">
                     <Hamburger buttonClass={buttonClass} changeClassName={changeClassName}/>
                 </div>

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { api } from "../../services/ApiConfig";
+import { NavLink } from "react-router-dom";
 import TradeCard from '../../Components/TradeCard';
 import Title from '../../Components/Title';
+import Footer from '../../Components/Footer'
 import './TradingBlock.scss'
 
 export default function TradingBlock() {
@@ -14,7 +16,7 @@ export default function TradingBlock() {
     async function fetchTradingBlock (){
         try {
             const tradingBlock = await api.get('/trading-block')
-            setTradingBlock(tradingBlock.data)
+            setTradingBlock(tradingBlock.data.reverse())
         } catch(error) {
             throw error
         }
@@ -37,17 +39,24 @@ export default function TradingBlock() {
         } else {
             return (
                 <>
-                    <Title title='trading block is empty' className='has-text-centered is-uppercase'/>
-                    <Title title='post a player & what you are looking for in return' className='has-text-centered'/>
+                    <Title title='trading block is empty' className='has-text-centered is-uppercase primary is-size-2'/>
+                    <div className="button-container">
+                        <button className="button is-rounded primary">
+                            <NavLink exact to='/trading-block/post'>Post Player</NavLink>
+                        </button>
+                    </div>
+                    <Title title='post a player & what you are looking for in return' className='has-text-centered is-uppercase primary is-size-4'/>
                 </>
             )
 
         }
     }
     return (
+        <>
         <div className='tradingblock-container'>
             {renderTradingBlock()}
-            {console.log(tradingBlock)}
         </div>
+        <Footer/>
+        </>
     )
 }

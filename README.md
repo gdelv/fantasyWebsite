@@ -8,7 +8,7 @@
 - [x] History ('/history')
 - [x] Contact ('/contact')
 - [x] Trading Block (GET) ('/trading-block')
-    - [ ] Post Player Page (POST) ('/trading-block/create')
+    - [x] Post Player Page (POST) ('/trading-block/create')
 - [ ] News ('/news')
 - [ ] Top Players ('/top-players')
 
@@ -41,8 +41,8 @@
 - [x] History Card
 - [x] Contact Card
 - [x] Trade Card
-- [ ] Input Comp
-- [ ] Form Component
+- [x] Input Comp
+- [x] Form Component
 - [ ] Announcement Card
 
 
@@ -67,6 +67,7 @@
     - playerName ( string )
     - playerImg ( img )
     - lookingFor ( string )
+
 ### Glitches To Fix
 - Nav modal is scrollable 
 - Home overlay move up
