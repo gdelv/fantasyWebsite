@@ -71,7 +71,7 @@
 
 ### Glitches To Fix
 - [ ] Nav modal is scrollable 
-- [ ] Home overlay move up
+- [ ] Home overlay position
 
 
 ### To Add
