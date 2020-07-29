@@ -154,8 +154,8 @@ export const contactArr = [
     {   
         teamOwner: 'Lee',
         teamName: 'Wubalubachubbchubb',
-        ownerNum: '',
-        ownerEmail: ''
+        ownerNum: '5164231047',
+        ownerEmail: 'lbschwartz4@gmail.com'
     },
     {   
         teamOwner: 'Press',

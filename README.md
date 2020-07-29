@@ -78,3 +78,4 @@
 - [ ] Clicking on ImgComp renders selected image larger scale in a modal
 - [x] Making logo on nav link back to home page
 - [ ] Fix contactCard height and making contact-container dynamic
+- [ ] Add past draft boards to history page
