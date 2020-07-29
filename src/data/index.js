@@ -142,8 +142,8 @@ export const contactArr = [
     },{   
         teamOwner: 'Whalen',
         teamName: 'DOH!!',
-        ownerNum: '',
-        ownerEmail: ''
+        ownerNum: '9175146874',
+        ownerEmail: 'Mikeyawhalen@yahoo.com'
     },
     {   
         teamOwner: 'Iacono',
@@ -167,7 +167,7 @@ export const contactArr = [
         teamOwner: 'Nick',
         teamName: 'The White Walkers',
         ownerNum: '5066035725',
-        ownerEmail: ''
+        ownerEmail: 'Nicholas.tonini@gmail.com'
     },
     {   
         teamOwner: 'Josh',

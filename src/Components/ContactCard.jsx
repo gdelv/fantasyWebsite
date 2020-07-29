@@ -11,7 +11,7 @@ export default function ContactCard(props) {
                     <Title title={props.teamName} className='has-text-centered is-size-5 secondary'/>
                 </div>
             </div>
-            <footer class="card-footer">
+            <footer className="card-footer">
                 <a href={`tel:+1${props.ownerNum}`} className="card-footer-item">Call</a>
                 <a href={`sms://+1${props.ownerNum}`} className="card-footer-item">Text</a>
                 <a href={`mailto:${props.ownerEmail}`} className="card-footer-item">Email</a>

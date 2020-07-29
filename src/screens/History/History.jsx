@@ -13,9 +13,10 @@ export default function History() {
                 className='has-text-centered is-size-1 history-title primary'
             />
             <div className="card-container">
-                {historyArr.reverse().map((winner) =>{
+                {historyArr.reverse().map((winner, index) =>{
                     return (
-                        <HistoryCard 
+                        <HistoryCard
+                            key={index}
                             year={winner.year}
                             pictureArr={winner.sliderPicsArr} 
                             profilePic={winner.profilePic}

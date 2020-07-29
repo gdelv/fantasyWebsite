@@ -8,10 +8,13 @@ import './TradingBlock.scss'
 
 export default function TradingBlock() {
     const [tradingBlock, setTradingBlock] = useState([]);
-
+    console.log(tradingBlock);
     useEffect(() => {
-        fetchTradingBlock()
-    });
+        if (!tradingBlock.length) {
+            fetchTradingBlock()
+            renderTradingBlock()
+        }
+    },[]);
 
     async function fetchTradingBlock (){
         try {
@@ -32,8 +35,9 @@ export default function TradingBlock() {
                             <NavLink exact to='/trading-block/post'>Post Player</NavLink>
                         </button>
                     </div>
-                {tradingBlock.map((player) => 
+                {tradingBlock.map((player, index) => 
                     <TradeCard 
+                        key={index}
                         name={player.name} 
                         image_url={player.image_url} 
                         lookingFor={player.lookingFor}

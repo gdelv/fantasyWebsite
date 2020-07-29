@@ -10,8 +10,9 @@ export default function Contact() {
         <div>
             <Title title='Contacts List' className='contact-title primary has-text-centered'/>
             <div className="contact-container">
-                {contactArr.map((contact) =>
+                {contactArr.map((contact, index) =>
                     <ContactCard 
+                        key={index}
                         ownerName={contact.teamOwner}
                         teamName={contact.teamName}
                         ownerNum={contact.ownerNum}
